@@ -1,0 +1,76 @@
+/* roomCard.css */
+
+.room-card {
+    display: flex;
+    align-items:start;
+    border: 1px solid hsl(0, 0%, 87%);
+    max-width: 1400px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    background-color: #ffffff;
+  }
+  
+  .room-card2{
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .room-card__image {
+    max-width: 100%; /* Ensure the image container takes full width */
+    max-height: 100%; /* Allow the height to adjust automatically based on the image aspect ratio */
+  }
+  
+  .room-card__image img {
+    width: 100%; /* Ensure the image does not exceed the container width */
+    height: 100%; /* Ensure the image does not exceed the container height */
+    border-radius: 10px;
+  }
+  
+  .room-card__details {
+    padding: 20px;
+    width: 100%; /* Make details take full width */
+    
+  }
+  
+  
+  .room-card__details h2 {
+    margin: 0 0 10px;
+    font-size: 1.5rem;
+    color: #333;
+  }
+  
+  .infoCont{
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .room-card__info{
+    max-width: 92%;
+    
+  }
+  
+  .room-card__price,
+  .room-card__date {
+    margin: 10px 0;
+    font-size: 17px;
+    color: #666;
+    padding-right:40px;
+    padding-left: 70px;
+  }
+  
+  .room-card__button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  
+  }
+  
+  .room-card__button:hover {
+    background-color: #0056b3;
+  }

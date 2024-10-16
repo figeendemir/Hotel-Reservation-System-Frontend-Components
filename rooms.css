@@ -1,0 +1,25 @@
+.roomsItem{
+    position: relative;
+    color: white;
+    border-radius:10px;
+    overflow: hidden;
+    height: 210px;
+}
+
+.roomsImg{
+    width: 100%;
+    object-fit: cover;
+    height: 250px;
+}
+
+.roomsTitles{
+    position: absolute;
+    bottom: 10px;
+    left: 20px;
+    font-size: 11px;
+}
+
+.roomLink{
+    text-decoration: none;
+    color: white;
+}

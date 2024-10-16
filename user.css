@@ -1,0 +1,89 @@
+/* Include Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+.user-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f0f8ff;
+    padding: 20px;
+}
+
+.user-details {
+    background: #d8e1e9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 1000px;
+    width: 100%;
+    justify-content: center;
+}
+
+.user-details h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+    font-weight: 700;
+}
+
+.user-details p {
+    margin: 10px 0;
+    color: #555;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.user-details form {
+    margin-top: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.user-details label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+    align-items: center;
+    justify-content: center;
+}
+
+.user-details input {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+    justify-content: center;
+}
+
+.user-details button {
+    display: inline-block;
+    width: 100%;
+    padding: 10px;
+    background-color: #6999cd;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-weight: 500;
+    margin-top: 10px; /* Adds distance between buttons */
+}
+
+.user-details button:hover {
+    background-color: #0056b3;
+}
+
+.message {
+    margin-top: 10px;
+    color: red;
+    text-align: center;
+}

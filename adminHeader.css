@@ -1,0 +1,20 @@
+.adminHeader{
+    grid-area: header;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 30px 0 30px;
+    box-shadow: 0 6px 7px -3px black;
+    background-color: rgba(206, 212, 239, 0.552);
+    border: solid black;
+}
+
+.menuIcon{
+    display: none;
+}
+
+.BsIconH{
+    padding: 20px;
+    cursor: pointer;
+}

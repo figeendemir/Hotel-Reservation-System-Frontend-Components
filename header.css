@@ -1,0 +1,183 @@
+.header {
+    background-color: aliceblue;
+    background-size: 100%;
+    background-position: bottom;
+    height: 600px;
+    background-image: url(Images/HOME.png);
+    background-position: top;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    
+}
+
+.titleContainer{
+    padding: 20px;
+    backdrop-filter: blur(2px);
+    border-radius: 15px;
+}
+
+.header.listMode{
+    background-color: aliceblue;
+    background-size: 100%;
+    color: #003580;
+    background-image: none; 
+    height: 50px;
+    background-position: top;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.headerContainer{
+    background-color:none;
+    width: 100%;
+    max-width: 1024px;
+    margin: 20px 0px 100px 0px;
+}
+
+
+.headerContainer.listMode{
+    margin: 10px 0px 0px 0px;
+    height: 10px;
+    background-color: #003580;
+    max-width: 200px;
+}
+
+.headerList{
+    display: flex;
+    gap: 40px;
+    margin-bottom: 50px;
+    
+}
+
+
+.headerIcon{
+    color: #003580;
+}
+
+.headerListItem{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: aliceblue;
+}
+
+.headerListItem>span{
+    cursor: pointer;
+}
+
+.headerListItem{
+    border: 3px solid white;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.headerDesc{
+    margin: 32px 0px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 17px;
+
+}
+
+.headerBtn{
+    background-color: #febb02;
+    color: rgb(0, 0, 0);
+    font-weight: 500;
+    border: none;
+    border-radius: 3px;
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Renk geçiş efekti ekle */
+}
+
+.headerBtn:hover {
+    background-color: #ffcc4d; /* Fare üzerine gelindiğinde renk değiştir */
+}
+
+.headerLink {
+    text-decoration: none; /* Alt çizgiyi kaldır */
+    color: inherit;
+}
+
+
+.headerSearch{
+    height: 30px;
+    background-color: white;
+    border: 3px solid #febb02;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px 0px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: -25px;
+    width: 100%;
+    max-width: 1024px;
+}
+
+.headerSearchItem{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.headerSearchInput{
+    border: none;
+    outline: none;
+}
+
+.headerSearchText{
+    color:#003580;
+    cursor: pointer;
+
+}
+
+.date{
+    position: absolute;
+    top: 50px;
+    z-index: 2;
+    box-shadow: 0px 0px 10px -5px black;
+}
+
+.options{
+    position: absolute;
+    top: 50px;
+    background-color: white;
+    color: gray;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px -5px black;
+    z-index: 2;
+}
+
+.optionItem{
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+.optionCounter{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 12px;
+    color: black;
+}
+
+.optionCounterButton{
+    width: 30px;
+    height: 30px;
+    border: 1px solid #0071c2;
+    color: #0071c2;
+    cursor: pointer;
+    background-color: white;
+}
+
+.optionCounterButton:disabled{
+    cursor: not-allowed
+}
+
+.headerTitle{
+    font-family:Arial, Helvetica, sans-serif;
+}

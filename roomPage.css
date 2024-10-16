@@ -1,0 +1,107 @@
+
+.aboutContainer {
+    max-width: 2000px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: aliceblue;
+}
+  
+  .aboutWrapper {
+    max-width: 1024px;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+  }
+  
+  .aboutTitle {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .aboutAddress {
+    margin-bottom: 10px;
+  }
+  
+  .aboutAddress span {
+    margin-left: 5px;
+  }
+  
+  .aboutDistance {
+    font-style: italic;
+    margin-bottom: 10px;
+  }
+  
+  .aboutPriceHighlight {
+    font-weight: bold;
+    color: #9cf19c;
+    margin-bottom: 20px;
+  }
+  
+  .aboutImages {
+    margin-bottom: 20px;
+    
+  }
+  
+  .aboutImgWrapper {
+    display: flex;
+    flex-direction: column;    
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .aboutImg {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    padding: 10px;
+  }
+  
+  .aboutDetails {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .aboutDetailsText {
+    width: 60%;
+    margin-right: 20px;
+  }
+  
+  .aboutDetailsPrice {
+    width: 35%;
+  }
+  
+  .aboutDesc {
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+  
+  .aboutDetailsPrice h1 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+.aboutDetailsPrice span {
+    font-style: italic;
+    margin-bottom: 10px;
+}
+  
+.aboutDetailsPrice h2 {
+    font-size: 1.25rem;
+    margin-bottom: 20px;
+}
+  
+.aboutDetailsPrice button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+  
+.aboutDetailsPrice button:hover {
+  background-color: #0056b3;
+}

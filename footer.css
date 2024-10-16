@@ -1,0 +1,19 @@
+.footer{
+    width: 100%;
+    background-color: #003580;
+    padding: 8px;
+    
+}
+
+.fLists{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    margin-right: 100px;
+}
+
+.fListItem{
+    color: aliceblue;
+}
